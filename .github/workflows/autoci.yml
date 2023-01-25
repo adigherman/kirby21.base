@@ -51,7 +51,7 @@ jobs:
 #          - {os: windows-latest, r: 'devel',   r_ver: '4.3'}
 #          - {os: ubuntu-latest,   r: '4.0',     r_ver: '4.0', latex: "true", rspm: "https://packagemanager.rstudio.com/cran/__linux__/focal/latest"}
 #          - {os: ubuntu-latest,   r: 'oldrel',  r_ver: '4.1', latex: "true", rspm: "https://packagemanager.rstudio.com/cran/__linux__/focal/latest"}
-          - {os: ubuntu-latest,   r: 'release', r_ver: '4.2', latex: "true", rspm: "https://packagemanager.rstudio.com/cran/__linux__/focal/latest", coveralls: "true"}
+          - {os: ubuntu-latest,   r: 'release', r_ver: '4.2', latex: "true", rspm: "https://packagemanager.rstudio.com/all/latest", coveralls: "true"}
 #          - {os: ubuntu-latest,   r: 'devel',   r_ver: '4.3', latex: "true", rspm: "https://packagemanager.rstudio.com/cran/__linux__/focal/latest"}
 
     env:
